@@ -1,0 +1,47 @@
+body {
+  background-color : #3a3535;
+}
+
+hr {
+  margin-top: 50px;
+  border-style: dashed none none;
+  border-width: 2px;
+  border-color: lightgrey;
+  width: 10%;
+}
+
+h1 {
+  color: #ff7315;
+}
+
+
+h2 {
+  color: #ff7315;
+}
+
+p {
+  color: #f4f4f4;
+}
+
+table {
+  color: #f4f4f4;
+}
+
+a {
+  color: #ff7315;
+  text-decoration: none;
+}
+
+#myprofile {
+  border-radius: 100%;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contact-images {
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
