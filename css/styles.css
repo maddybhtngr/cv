@@ -1,99 +1,185 @@
 body {
   margin : 0;
+  background-color: #297ca0;
 }
 
-h1 {
-  margin-top: 0;
-  display: block;
-  font-size: 200px;
-  color: black;
-  border-style:  groove;
-  border-width: 20px;
+a {
+  color: #46b3e6;
+  border-width: 5px;
+  border-color: #46b3e6;
+  border-style: double;
+  padding: 10px;
+  margin: 20px 80px 20px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  }
+
+a:hover {
+  color: #dff6f0;
 }
 
-
-.header p {
-  display: block;
-  font-size: 50px;
-  font-weight:  bold;
+hr {
+  width: 50px;
+  border-color: #d6e5fa;
+  border-width: 3px;
+  opacity: 0.25;
+  border-spacing: 10px;
+  border-style: dotted none none none;
 }
 
-.profile_image img{
+.intro {
+  text-align: center;
+}
+
+.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  word-spacing: 1rem;
+  color: #46b3e6;
+  margin: 100px auto 15px;
+}
+
+.desc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin : 0 auto 50px;
+  color: #46185f;
+}
+
+.myphoto {
+  position: absolute;
+  text-align: center;
+  bottom: -100px;
+  left: 30%;
+  right: 30%;
+}
+
+.myphoto img {
+  width: 60%;
+  border-radius: 100%;
+  margin: auto;
+  border-width: 30px;
+  border-top-color: #4d80e4;
+  border-left-color: #4d80e4;
+  border-right-color: #46b3e6;
+  border-bottom-color: #46b3e6;
+  border-style: groove;
+}
+
+.background {
   position: relative;
-  bottom: 300px;
+  width: 100%;
+  height: 500px;
+  margin : 100px auto;
+}
+
+.background_image {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.cloud1 {
+  width: 100%;
+  position: absolute;
+  bottom: -270px;
+}
+
+.about_me {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.coding {
+  text-align: left;
+  width: 800px;
+  margin: 100px auto 150px;
+}
+
+.code_image {
   border-radius: 100%;
   width: 200px;
-  border-style: groove;
-  border-width: 50px;
-  border-left-color: grey;
-  border-right-color : gold;
-  border-top-color: magenta;
-  border-bottom-color: cyan;
-
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+  border-width: 10px;
+  border-color: #46b3e6;
+  border-style: outset;
 }
 
-.profile_image_background img {
-  width: 100%;
-
+.code_head {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #46185f;
+  text-decoration: underline;
+  margin: 32px auto;
 }
 
-.header {
+.code {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #46b3e6;
+  margin: auto;
+}
+
+.baking {
+  text-align: right;
+  margin: 150px auto 100px;
+  width: 800px;
+}
+
+.bake_image {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  border-width: 10px;
+  border-color: #46b3e6;
+  border-style: outset;
+}
+
+.bake_head {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #46185f;
+  text-decoration: underline;
+  margin: 32px auto;
+}
+
+.bake {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #46b3e6;
+  margin: auto;
+}
+
+.contact {
   text-align: center;
+  color: #46b3e6;
+  font-size: 4.5rem;
+  font-family: 'Sacramento', cursive;
+  margin: 100px auto 0;
 }
 
-.about {
-  text-align: center;
-}
-
-.personal {
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  display: inline-block;
-  position: relative;
-  bottom: 150px;
-  margin-right: 30px;
-  width: 400px;
-  height : 100px;
-  border-radius: 100px;
-  background-color: #ACCCCB;
-}
-
-.personal:hover {
-  background-color: #17b0b0;
-}
-
-h2{
-  display: inline-block;
-  font-size: 35px;
-}
-
-.professional {
-  display: inline-block;
-  position: relative;
-  bottom: 150px;
-  margin-left: 30px;
-  width: 400px;
-  height : 100px;
-  border-radius: 100px;
-  background-color: #BBBAAA;
-}
-
-.professional:hover {
-  background-color: grey;
+.contact_head {
+  margin-bottom: 50px;
 }
 
 .footer {
-  position: sticky;
-  bottom: 25px;
-  left : 10px;
-  height: 60px;
-  width: 310px;
+  position: relative;
+  text-align: center;
+  padding: 80px 50px;
+  background-color: #2e279d;
 }
 
-.footer img {
-  height: 60px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border-radius: 5px;
+.copyright {
+  position: absolute;
+  padding-top: 10px;
+  bottom: 1px;
+  left : 30%;
+  right : 30%;
+  color: #dff6f0;
+  font-size: 0.8rem;
 }
